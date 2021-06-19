@@ -1,36 +1,34 @@
 {
   "user": [
     {
-      "username": "bharti",
-      "password": "bha#2"
-    },
-    {
-      "username": "ravina",
-      "password": "rav#2"
-    },
-    {
-      "username": "neha",
-      "password": "neh#9"
+      "username": "Bharti",
+      "password": "bha#2",
+      "profile": {
+        "description": "i am bharti",
+        "dob": "15.04.1997",
+        "hobbies": "watching movie",
+        "gender": "female"
+      }
     },
     {
       "username": "Sikha",
-      "password": "sikh$8"
+      "password": "sik#1",
+      "profile": {
+        "description": "i am sikha from up",
+        "dob": "19.05.1998",
+        "hobbies": "eating food",
+        "gender": "female"
+      }
     },
     {
-      "username": "Rinki",
-      "password": "rin#7"
-    },
-    {
-      "username": "Amisha",
-      "password": "ami#1"
-    },
-    {
-      "username": "Pragati",
-      "password": "pra$6"
-    },
-    {
-      "username": "nehayadev",
-      "password": "nav#2"
+      "username": "Nikita",
+      "password": "nik$9",
+      "profile": {
+        "description": "I am sister of bharti and i am crazy person.",
+        "dob": "12.08.1998",
+        "hobbies": "watching movie and cooking",
+        "gender": "female"
+      }
     }
   ]
 }
