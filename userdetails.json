@@ -29,6 +29,16 @@
         "hobbies": "watching movie and cooking",
         "gender": "female"
       }
+    },
+    {
+      "username": "Sapna",
+      "password": "sap#7",
+      "profile": {
+        "description": "funny girl",
+        "dob": "12 july 1998",
+        "hobbies": "cooking",
+        "gender": "femal"
+      }
     }
   ]
 }

@@ -7,7 +7,6 @@ if(userInput == 'signup') {
 else if(userInput == 'login') {
     logIn()
 }
-
 function signUp() {
     let userData = {'user':[]}
     let obj = {'username':"", 'password':"", 'profile':""}
@@ -18,13 +17,12 @@ function signUp() {
     if(password1 == password2) {
         if(password1.includes('#') || password1.includes('$')) {
             if(password1.match(/[0-9]/)) {
-                    jsData = readFile()
-                    if(jsData.length == 0) {
+                    if(fs.existsSync('userdetails.json') == false) {
+                        let data = JSON.stringify('bharti', null, 2);
+                        fs.writeFileSync('userdetails.json', data)
+                        jsData = readFile()
                         obj['username'] = userName
                         obj['password'] = password1
-                        // userData['user'].push(obj)
-                        // let allData = JSON.stringify(userData, null, 2)
-                        // fs.writeFileSync('userdetails.json',allData)
                         console.log('congrats '+userName+" You are Signed Up Successfully")
                         let descrip = readlineSync.question('Enter the description---')
                         let dateOfBirth = readlineSync.question("Enter the date of birth ----")
@@ -38,8 +36,6 @@ function signUp() {
                         userData['user'].push(obj)
                         let allData = JSON.stringify(userData, null, 2)
                         fs.writeFileSync('userdetails.json',allData)
-
-
                     }else{
                         dataStore = readFile()
                         let i = 0
@@ -70,8 +66,7 @@ function signUp() {
                             dataStore['user'].push(obj)
                             let allData = JSON.stringify(dataStore, null, 2)
                             fs.writeFileSync('userdetails.json',allData)
-                        }
-                                              
+                        }                               
                     }
             }else{
                 console.log('Atleast password should contain one speacial charactor and number')
