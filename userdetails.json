@@ -23,6 +23,14 @@
     {
       "username": "Amisha",
       "password": "ami#1"
+    },
+    {
+      "username": "Pragati",
+      "password": "pra$6"
+    },
+    {
+      "username": "nehayadev",
+      "password": "nav#2"
     }
   ]
 }

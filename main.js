@@ -4,10 +4,9 @@ let userInput = readlineSync.question('what you want to do? 1. login 2. signup ?
 if(userInput == 'signup') {
     signUp()
 }
-// else if(userInput == 'login') {
-
-
-// }
+else if(userInput == 'login') {
+    logIn()
+}
 
 function signUp() {
     let userData = {'user':[]}
@@ -29,10 +28,15 @@ function signUp() {
 
                     }else{
                         dataStore = readFile()
-                        checkData = checkUserName()
-                        if(checkData == 'Username Already Exists') {
+                        let i = 0
+                        while(i<dataStore['user'].length) {
+                            var a = dataStore['user'][i]['username']
+                            if(a == userName) {
+                                break
+                            }i++
+                        }if(a == userName) {
                             console.log('Username Already Exists')
-                            break
+
                         }else{
                             obj['username'] = userName
                             obj['password'] = password1
@@ -41,7 +45,7 @@ function signUp() {
                             fs.writeFileSync('userdetails.json',allData)
                             console.log('congrats '+userName+", You are Signed Up Successfully")
                         }
-                       
+                                              
                     }
             }else{
                 console.log('Atleast password should contain one speacial charactor and number')
@@ -61,15 +65,25 @@ function readFile() {
     return convertedData
 }
 
-function checkUserName() {
-    jsData = readFile()
-    let i = 0
-    while(i<jsData['user'].length) {
-        if(jsData['user'][i]['username'] == userName) {
-            return ('Username Already Exists')
-        }i++
+function logIn() {
+    readData = readFile()
+    let userName = readlineSync.question('Enter the username------')
+    let password = readlineSync.question('Enter the password-----')
+    let index = 0
+    while(index<readData['user'].length) {
+        var d = readData['user'][index]['username']
+        if(d == userName) {
+            var p = readData['user'][index]['password']
+            if(p == password) {
+                break
+            }else{
+                console.log("Invalid username and Password")
+            }
+        
+        }index++
+    }if(d == userName) {
+        console.log('congrats '+userName+" You are Logged In Successfully")
+    }else{
+        console.log("Invalid username and Password")
     }
 }
-
-
-console.log('bhartiiiiiiiiiiiiii')
