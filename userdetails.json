@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "username": "bharti",
+      "password": "bha#2"
+    },
+    {
+      "username": "ravina",
+      "password": "rav#2"
+    },
+    {
+      "username": "neha",
+      "password": "neh#9"
+    },
+    {
+      "username": "Sikha",
+      "password": "sikh$8"
+    },
+    {
+      "username": "Rinki",
+      "password": "rin#7"
+    },
+    {
+      "username": "Amisha",
+      "password": "ami#1"
+    }
+  ]
+}
