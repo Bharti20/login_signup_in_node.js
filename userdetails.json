@@ -4,40 +4,20 @@
       "username": "Bharti",
       "password": "bha#2",
       "profile": {
-        "description": "i am bharti",
-        "dob": "15.04.1997",
-        "hobbies": "watching movie",
+        "description": "i am very hadworker",
+        "dob": "15.04.1998",
+        "hobbies": "dancing",
         "gender": "female"
       }
     },
     {
-      "username": "Sikha",
-      "password": "sik#1",
+      "username": "Jyoti",
+      "password": "jy#5",
       "profile": {
-        "description": "i am sikha from up",
-        "dob": "19.05.1998",
-        "hobbies": "eating food",
+        "description": "student",
+        "dob": "12 july 2000",
+        "hobbies": "reading",
         "gender": "female"
-      }
-    },
-    {
-      "username": "Nikita",
-      "password": "nik$9",
-      "profile": {
-        "description": "I am sister of bharti and i am crazy person.",
-        "dob": "12.08.1998",
-        "hobbies": "watching movie and cooking",
-        "gender": "female"
-      }
-    },
-    {
-      "username": "Sapna",
-      "password": "sap#7",
-      "profile": {
-        "description": "funny girl",
-        "dob": "12 july 1998",
-        "hobbies": "cooking",
-        "gender": "femal"
       }
     }
   ]

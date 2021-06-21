@@ -102,7 +102,7 @@ function logIn() {
                 break
             }
         }index++
-    }if(d == userName) {
+    }if(d == userName && p == password) {
         console.log()
         console.log('congrats '+userName+" You are Logged In Successfully")
         console.log()
