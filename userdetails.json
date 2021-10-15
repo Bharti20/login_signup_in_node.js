@@ -1,24 +1,64 @@
 {
-  "user": [
-    {
-      "username": "Bharti",
-      "password": "bha#2",
-      "profile": {
-        "description": "i am very hadworker",
-        "dob": "15.04.1998",
-        "hobbies": "dancing",
-        "gender": "female"
-      }
-    },
-    {
-      "username": "Jyoti",
-      "password": "jy#5",
-      "profile": {
-        "description": "student",
-        "dob": "12 july 2000",
-        "hobbies": "reading",
-        "gender": "female"
-      }
-    }
-  ]
+    "user": [
+        {
+            "username": "Bharti",
+            "password": "bha#2",
+            "profile": {
+                "description": "i am very hadworker",
+                "dob": "15.04.1998",
+                "hobbies": "dancing",
+                "gender": "female"
+            }
+        },
+        {
+            "username": "Jyoti",
+            "password": "jy#5",
+            "profile": {
+                "description": "student",
+                "dob": "12 july 2000",
+                "hobbies": "reading",
+                "gender": "female"
+            }
+        },
+        {
+            "username": "ravina",
+            "password": "rav#4",
+            "profile": {
+                "description": "i am",
+                "dob": "12,3,5",
+                "hobbies": "dance",
+                "gender": "female"
+            }
+        },
+        {
+            "username": "Pragati",
+            "password": "pra#7",
+            "profile": {
+                "description": "i am cute",
+                "dob": "12.15.1997",
+                "hobbies": "eating",
+                "gender": "female"
+            }
+        },
+        {
+            "username": "Rav",
+            "password": "rav#2",
+            "profile": {
+                "description": "fghj",
+                "dob": "678",
+                "hobbies": "gh",
+                "gender": "female"
+            }
+        },
+        {
+            "username": "amisha",
+            "password": "ami#6",
+            "profile": {
+                "description": "tyuio",
+                "dob": "4567",
+                "hobbies": "h",
+                "gender": "h"
+            }
+        }
+    ]
 }

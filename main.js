@@ -51,7 +51,7 @@ function signUp() {
                             obj['username'] = userName
                             obj['password'] = password1
                             console.log()
-                            console.log('congrats '+userName+", You are Signed Up Successfully")
+                            console.log(`congrats ${userName}, You are Signed Up Successfully`)
                             console.log()
                             let descrip = readlineSync.question('Enter the description---')
                             let dateOfBirth = readlineSync.question("Enter the date of birth ----")
@@ -104,7 +104,7 @@ function logIn() {
         }index++
     }if(d == userName && p == password) {
         console.log()
-        console.log('congrats '+userName+" You are Logged In Successfully")
+        console.log(`congrats ${userName} You are Logged In Successfully`)
         console.log()
         console.log('Profile:')
         console.log('username: '+name)
